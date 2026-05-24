@@ -1,0 +1,12 @@
+[
+  {
+    "choices": [{
+      "message": {
+        "role": "assistant",
+        "content": "Hello, world!",
+        "tool_calls": null
+      },
+      "finish_reason": "stop"
+    }]
+  }
+]

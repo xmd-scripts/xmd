@@ -1,0 +1,26 @@
+[
+  {
+    "choices": [{
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [{
+          "id": "call_1",
+          "type": "function",
+          "function": {"name": "write_file", "arguments": "{\"path\": \"output.txt\", \"content\": \"test output\"}"}
+        }]
+      },
+      "finish_reason": "tool_calls"
+    }]
+  },
+  {
+    "choices": [{
+      "message": {
+        "role": "assistant",
+        "content": "Done. I wrote the output.",
+        "tool_calls": null
+      },
+      "finish_reason": "stop"
+    }]
+  }
+]
